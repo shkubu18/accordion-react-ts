@@ -1,0 +1,70 @@
+@media screen and (min-width: 900px) {
+    .title:hover {
+        transition: all 1s ease;
+        color: #F47B56;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .accordion-card {
+        flex-direction: column !important;
+        width: 100% !important;
+        height: 700px !important;
+    }
+
+    .list-container {
+        min-height: 70%;
+    }
+
+    .image-container {
+        background-image: url(../assets/imgs/bg-pattern-mobile.svg) !important;
+        width: 100%;
+        min-height: 30%;
+        background-position-x: 50% !important;
+        background-size: 45% !important;
+    }
+
+    .illustration-box-images {
+        background-image: url(../assets/imgs/illustration-woman-online-mobile.svg) !important;
+        background-position-x: 50% !important;
+        background-size: 40%;
+        margin-top: -140px;
+        height: 250px !important;
+    }
+
+    .illustration-box-images .box {
+        background-image: unset !important;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .illustration-box-images {
+        margin-top: -120px !important;
+    }
+
+    .image-container {
+        background-position-y: 30% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .illustration-box-images {
+        background-size: 55%;
+    }
+
+    .image-container {
+        background-position-y: 15% !important;
+        background-size: 65% !important;
+    }
+
+    .accordion-card {
+        margin: 0 !important;
+    }
+
+    .list-container {
+        padding-right: unset !important;
+        padding-right: 20px !important;
+    }
+}

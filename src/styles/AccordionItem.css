@@ -1,0 +1,42 @@
+.list-container {
+    min-width: 50%;
+    padding-block: 50px;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+.hidden-hint:empty {
+    display: none;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.list div p {
+    color: #4B4C5F;
+    margin-top: 10px;
+}
+
+.down-arrow {
+    width: 12px;
+    height: 8px;
+    transition: all .5s ease;
+}
+
+.down-arrow.flipped {
+    transform: rotate(180deg);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.accordion-card {
+    width: 920px;
+    height: 509px;
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-inline: 50px;
+}
+
+.image-container {
+    min-width: 50%;
+    background-image: url(../assets/imgs/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: -135px;
+}
+
+.illustration-box-images {
+    background-image: url(../assets/imgs/illustration-woman-online-desktop.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -80px;
+    position: relative;
+}
+
+.illustration-box-images .box {
+    background-image: url(../assets/imgs/illustration-box-desktop.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 220px;
+    left: -95px;
+    width: 150px;
+    height: 150px;
+}
